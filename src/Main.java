@@ -1,9 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        Register register = new Register();
-        register.laggTillMedlem(new Medlem("Anna", 101));
-        register.laggTillMedlem(new Medlem("Erik", 102));
-        register.visaMedlemmar();
+        Medlem medlem = new Medlem("Kim", 1001);
+        System.out.println(medlem.getNamn());
     }
 }
