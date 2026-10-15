@@ -3,5 +3,6 @@ public class Main {
 
         Medlem medlem = new Medlem("Kim", 1001);
         System.out.println(medlem.getNamn());
+        System.out.println(medlem.getMedlemsnummer());
     }
 }
