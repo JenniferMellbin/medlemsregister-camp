@@ -1,8 +1,9 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class Register {
 
-    private ArrayList<Medlem> medlemmar = new ArrayList<>();
+    private List<Medlem> medlemmar = new ArrayList<>();
 
     public void laggTillMedlem(Medlem medlem) {
         medlemmar.add(medlem);
