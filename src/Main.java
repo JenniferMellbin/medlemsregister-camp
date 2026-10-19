@@ -5,8 +5,12 @@ public class Main {
 
         Medlem medlem = new Medlem("Kim", 1001);
         register.laggTillMedlem(medlem);
+
         Medlem medlem2 = new Medlem("Moa", 1002);
         register.laggTillMedlem(medlem2);
+
+        Medlem medlem3 = new Medlem("Lisa", 1003);
+        register.laggTillMedlem(medlem3);
 
         register.visaMedlemmar();
 
