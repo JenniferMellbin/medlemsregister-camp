@@ -4,15 +4,15 @@ public class Main {
         Register register = new Register();
 
         Medlem medlem = new Medlem("Kim", 1001);
-        register.laggTillMedlem(medlem);
+        register.läggTill(medlem);
 
         Medlem medlem2 = new Medlem("Moa", 1002);
-        register.laggTillMedlem(medlem2);
+        register.läggTill(medlem2);
 
         Medlem medlem3 = new Medlem("Lisa", 1003);
-        register.laggTillMedlem(medlem3);
+        register.läggTill(medlem3);
 
-        register.visaMedlemmar();
+        register.listaAlla();
 
     }
 }
